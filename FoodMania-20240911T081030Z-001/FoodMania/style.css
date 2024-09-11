@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.header{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(0, 0, 0 , 0.5);
+    align-items: stretch;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.nav-item{
+    width: 20%;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+#corner-nav{
+    font-size: x-large;
+}
+
+body {
+    background: url("Images/pexels-pixabay-262978.jpg");
+    background-size:cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+#middle-nav{
+    width: 50%;
+    margin: auto;
+}
+
+#middle-nav ul li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+#upperbody{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+
+.uppercenter-body{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(0, 0, 0, 0.4);
+    align-self: center;
+    box-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#second{
+    display: flex;
+}
+#second-right{
+    height: 550px;
+    width: 40%;
+    background: url("Images/pexels-pixabay-262896.jpg");
+    background-size: cover;
+    display: block;
+    margin-right: 0px;
+}
+#second-left{
+    float: left;
+    height: 550px;
+    width: 60%;
+    background-color: rgb(253, 248, 247);
+    margin-left: 0px;
+}
+
+.text-form{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-family:'Oswald', sans-serif;
+    color: brown;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.text-form:focus{
+    box-shadow: 0 0 18px 0  rgb(187, 255, 0);
+}
+
+#form-title{
+ font-family:'Oswald', sans-serif;
+ margin: auto;
+ color: beige;
+}
+
+#submit-button{
+    margin-left: 30% ;
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-family:'Oswald', sans-serif;
+    background-color: rgb(228, 191, 135);
+    font-size: x-large;
+    text-align: center;
+}
+
+#submit-button:hover{
+    background-color: rgb(250, 176, 65);
+}
+
+#description-text{
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+.heading{
+    font-family:'Oswald', sans-serif;
+}
+
+.image{
+    width: 24%;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#third{
+    background-image: url('D:/Html projects/FoodMania/Images/pexels-aleksandar-pasaric-2078008.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
